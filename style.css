@@ -1,0 +1,77 @@
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{margin:0}
+header{
+margin:0;
+color: #00b39b !important;
+width: 100%;
+position: sticky;
+margin: 0 30px;}
+h1{
+    color:#00b39b}
+    /*******************************Header**************************/
+nav{
+        display: flex !important;
+        justify-content: space-between !important;
+        color:#00b39b !important;
+    }
+
+/*******list des choix appear when you hover:******/
+
+.dropdown-content li {
+    float: none;
+}
+.dropdown-content
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 300ms ease;
+}
+.dropdown:hover .dropdown-content{
+    max-height: inherit;
+    opacity: 1;
+    display: block;
+  }
+/*******mise en page de main*******/
+h1{color:#00b39b; margin: 0; 
+position: relative;
+display: block;}
+main{display: block ;}
+/****************logo au centre*****************************/
+.logo{display:block;margin: 0 auto;
+margin-top: 20px;}
+
+.col{
+    width: 100%;
+    color:#ababab;
+    margin: 20px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+/*******************les deux cards****************************************/
+.row{
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
+    border-radius:10px !important;
+}
+.fordocs{
+    height: 30px!important;
+}
+.forpatient{
+    height: 30px!important;
+}
+img{display: block;
+}
+.istedepays{
+    display: inline-block;
+}
+.card-img-top{
+    height: 50%!important;
+    width: 50%!important;
+}
