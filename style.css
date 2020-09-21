@@ -5,17 +5,26 @@ margin:0;
 color: #00b39b !important;
 width: 100%;
 position: sticky;
-margin: 0 30px;}
+top:0;
+margin: 0 30px;
+z-index: 5;}
 h1{
-    color:#00b39b}
+    color:#00b39b;
+font-weight: 5px;}
     /*******************************Header**************************/
 nav{
         display: flex !important;
         justify-content: space-between !important;
-        color:#00b39b !important;
+      
     }
 
 /*******list des choix appear when you hover:******/
+.card{
+    border-radius: 10px!important;
+}
+.row{
+    border-radius: 10px!important;
+}
 
 .dropdown-content li {
     float: none;
@@ -29,6 +38,7 @@ nav{
     opacity: 0;
     overflow: hidden;
     transition: opacity 300ms ease;
+    position: absolute;
 }
 .dropdown:hover .dropdown-content{
     max-height: inherit;
@@ -60,18 +70,79 @@ margin-top: 20px;}
     margin: 0 100px;
     border-radius:10px !important;
 }
-.fordocs{
-    height: 30px!important;
-}
-.forpatient{
-    height: 30px!important;
-}
+
 img{display: block;
 }
 .istedepays{
     display: inline-block;
 }
+
 .card-img-top{
-    height: 50%!important;
-    width: 50%!important;
+    height: 100%!important;
+    width: 100%!important;
+}
+.card{
+    border-radius: 10px!important;
+    padding: 0;
+}
+.card img{
+    height: 200px;
+    width: auto;
+    position: relative;
+    position: left;
+}
+.col-sm-4{
+    border-radius: 10px!important;
+    overflow: hidden;
+  
+}
+.boxbleu{
+    border-radius: 10px;
+    height: 430px!important;
+    margin: 0;
+  
+}
+/*********************************************************************/
+.inner2{
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    
+}
+.bloc1{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+   
+}
+.bloc1 ul{
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+   list-style: none;
+   color: seagreen!important;
+}
+svg{
+    fill: gray;
+    height: 20px;
+    width: 120px;
+    
+}
+.svg1:hover  svg1{
+    fill: green;
+}
+.brands__logos .svg1{
+    color: seagreen!important;
+}
+.bloc li{
+    height: 50px;
+    width: auto;
+}
+#cartes{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 150px;
 }
